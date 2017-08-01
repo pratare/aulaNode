@@ -1,0 +1,21 @@
+{
+  "name": "payfast",
+  "version": "1.0.0",
+  "description": "api para pagamento.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\Error: no test specified\\ && exit",
+    "dev": "nodemon index"
+  },
+  "author": "pratare",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-load": "^1.1.16",
+    "mysql": "^2.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
